@@ -6,6 +6,10 @@ A server that's modular enough and feature complete-ish for battle simulation?
 
 You're in the right place!
 
+## Join the Discord
+
+https://discord.gg/hAC47nUAqN
+
 ## Tutorial
 
 This tutorial assumes you have basic knowledge of a terminal and traffic redirection with a proxy.
