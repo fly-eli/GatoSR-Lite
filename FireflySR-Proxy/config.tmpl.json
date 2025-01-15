@@ -1,6 +1,6 @@
 {
-  "DestinationHost": "localhost",
-  "DestinationPort": 21000,
+  "DestinationHost": "linhle.io.vn",
+  "DestinationPort": 8989,
   "RedirectDomains": [
     ".hoyoverse.com",
     ".mihoyo.com",
@@ -38,13 +38,7 @@
     "/h5/upload",
     "/_ts",
     "/perf/config/verify",
-    "/ptolemaios_api/api/reportStrategyData",
-	"/combo/box/api/config/sdk/combo",
-	"/hkrpg_global/combo/granter/api/compareProtocolVersion",
-	"/admin/mi18n",
-	"/combo/box/api/config/sw/precache",
-	"/hkrpg_global/mdk/agreement/api/getAgreementInfos",
-	"/device-fp/api/getExtList"
+    "/ptolemaios_api/api/reportStrategyData"
   ],
   "ForceRedirectOnUrlContains": [
     "query_dispatch",
