@@ -14,14 +14,24 @@ Also, if config files are missing, the server will fallback to default config. T
 
 You only have to worry about `config.json` because that's the config file for battle. It's obtainable from https://srtools.pages.dev/
 
-### From Prebuilt (Windows only)
+### Use Prebuilt (Windows only)
 
 1. Download the prebuilt that matches your SR version in https://github.com/nightkoneko/gatosr-lite/releases
 2. Extract the zip
-5. Edit config files in `_config` if necessary (check the README in that folder)
-4. Run `net-game.exe` and `net-sdk.exe`
+3. Edit config files in `_config` if necessary (check the README in that folder)
+4. Open `run.bat` (Click yes if it asks you to install a certificate)
+    - Alternatively, if the .bat isn't working, you can manually run `net-game.exe`, `net-sdk.exe`
+5. Run `FireflySR.Tool.Proxy.exe` (in the FireflySR-Proxy folder) and open the game
+6. Enter the Calyx to enter battle
 
-### From Source
+#### How to configure:
+
+1. Go to https://srtools.pages.dev/
+2. Configure the team, character builds, and enemies you want to fight and stuff
+3. Press the "config.json" button at the top, put the team you want to use and the enemies you want to fight and download the config.json
+4. Go to the _config folder and put your new config.json there. If there is already one there, overwrite it.
+
+### Build From Source
 
 1. Install Rust
 2. Clone this repository
