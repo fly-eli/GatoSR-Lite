@@ -45,6 +45,9 @@ You only have to worry about `config.json` because that's the config file for ba
 7. `cargo run --release --bin net-sdk`
 
 ## Credits
+
+Based on https://github.com/DevilProMT/sr
+
 - Eli
 - Gatokeeper: :3
 - Naruse
