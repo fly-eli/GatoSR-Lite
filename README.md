@@ -34,5 +34,6 @@ You only have to worry about `config.json` because that's the config file for ba
 ## Credits
 - Eli
 - Gatokeeper: :3
+- Naruse
 - Yulian: QingqueSR Developer
 - amizing25: SrTools Author
