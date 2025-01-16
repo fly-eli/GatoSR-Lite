@@ -6,13 +6,11 @@ A server that's modular enough and feature complete-ish for battle simulation?
 
 You're in the right place!
 
+#### Fork of https://github.com/DevilProMT/sr
+
 ## Join the Discord
 
 https://discord.gg/hAC47nUAqN
-
-## Credits
-
-Fork of https://github.com/DevilProMT/sr
 
 ## Tutorial
 
