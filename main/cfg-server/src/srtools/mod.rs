@@ -238,15 +238,23 @@ impl SrToolsConfig {
                     .split(':')
                     .map(|part| part.parse::<u32>().expect("Failed to parse RelicSAffix"))
                     .collect();
-                if parts.len() != 3 {
+            
+                // Check if the number of components is 2 or 3
+                if !(2..=3).contains(&parts.len()) {
                     panic!(
-                        "Expected exactly 3 components in saffix, found {}",
+                        "Expected 2 or 3 components in saffix, found {}",
                         parts.len()
                     );
                 }
-                (parts[0], parts[1], parts[2])
+            
+                // If there are only 2 components, pad with a default value (e.g., 0)
+                match parts.len() {
+                    2 => (parts[0], parts[1], 0),
+                    3 => (parts[0], parts[1], parts[2]),
+                    _ => unreachable!(), // This will never be hit due to the previous check
+                }
             }
-
+            
             relic_strings
                 .into_iter()
                 .map(|rstring| {
