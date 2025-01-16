@@ -9,7 +9,7 @@
 lineup = [1403]
 
 trailblazer_gender = "Woman"
-trailblazer_element = "Imaginary"
+trailblazer_element = "Ice"
 march_element = "Imaginary"
 
 # You don't need to update owned_avatars for battle to work.
