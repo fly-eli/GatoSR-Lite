@@ -10,6 +10,10 @@ You're in the right place!
 
 https://discord.gg/hAC47nUAqN
 
+## Credits
+
+Fork of https://github.com/DevilProMT/sr
+
 ## Tutorial
 
 This tutorial assumes you have basic knowledge of a terminal and traffic redirection with a proxy.
@@ -42,11 +46,9 @@ You only have to worry about `config.json` because that's the config file for ba
 3. `cd` into `main`
 5. Edit config files in `_config` if necessary (check the README in that folder)
 6. `cargo run --release --bin net-game`
-7. `cargo run --release --bin net-sdk`
+7. `cargo run --release --bin net-sdk
 
 ## Credits
-
-Based on https://github.com/DevilProMT/sr
 
 - Eli
 - Gatokeeper: :3
